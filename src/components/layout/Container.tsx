@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface ILayout {
-    children: JSX.Element;
+    children: React.ReactNode;
 }
 
 export const Container = ({children}:ILayout) =>{
