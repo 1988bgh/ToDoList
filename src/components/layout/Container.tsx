@@ -11,9 +11,10 @@ export const Container = ({children}:ILayout) =>{
 }
 
 const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column;
     width: 90%;
-    max-width:1024px;
+    max-width:76.8rem;
     height:100%;
     margin:0 auto;
-    background-color:#f5f5f5;
 `
